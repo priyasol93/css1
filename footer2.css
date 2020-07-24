@@ -1,0 +1,45 @@
+*{
+    padding:0px;
+    /* margin:0px; */
+    list-style-type: none;
+    text-decoration: none;
+}
+.main{
+    width:100%;
+    background-color: #272727;
+    margin-top:400px;
+    height:auto;
+}
+.social-icon ul{
+    
+    display:flex;
+    padding:20px 0px;
+    justify-content: center;
+    
+}
+.social-icon .fa{
+    font-size: large;
+    color:white;
+    margin:5px;
+    border:1px solid orange;
+    border-radius:100%;
+    padding:10px 10px;
+    background-color: green;
+}
+.footer-menu ul{
+    display:flex;
+    justify-content: center;
+    /* position: absolute; */
+
+}
+.footer-menu ul li{
+    margin:5px;
+}
+.footer-menu ul li a{
+    color:white;
+}
+.btnfooter{
+    color:grey;
+    text-align: center;
+   padding:20px 0px;
+}

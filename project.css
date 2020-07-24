@@ -1,0 +1,73 @@
+body{
+    background-image: url(/images/wallpaper.jpg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    color:white;
+}
+.header h1{
+    position:absolute;
+    top:200px;
+    margin:30px;
+    font-size:50px;
+}
+.header p{
+    font-size:12px;
+    position:absolute;
+    top:260px;
+    margin:40px;
+    font-style: italic;
+}
+.header .btn{
+    background-color:yellow;
+    position:absolute;
+    top:320px;
+    margin:40px;
+    width:140px;
+    height:40px;
+    border:none;
+    outline:none;
+    border-radius:5px;
+    font-family: Bauhaus 93;
+}
+
+.nav{
+    
+    background-color: black;
+    overflow: hidden;
+}
+.navbar ul li{
+    list-style-type:none;
+    position:relative;
+    color:white;
+    line-height:50px;
+    left:600px;
+    cursor:pointer;
+    
+}
+.navbar li{
+    float: left;
+    padding:8px;
+}
+.b{
+   
+    display:none;
+  
+    overflow: hidden;
+  
+}
+li:hover .b{
+    display:block;
+   
+    
+    
+}
+.navbar .icon{
+    color:crimson;
+    border:1px solid orange;
+    position: absolute;
+    top:1px;
+    left:10px;
+}
